@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Titulo.unity
+    guid: 37193e56be8fd6d4582b8437174c78a3
+  - enabled: 1
+    path: Assets/Scenes/HabitacionEvelyn.unity
+    guid: 481691cc4afe5eb42b771c25f6fb4e4e
+  - enabled: 1
+    path: Assets/Scenes/PasilloHab.unity
+    guid: 2da4467b03e84114eb400f7438376702
+  - enabled: 1
+    path: Assets/Scenes/TallerFigurinista.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Mapa.unity
+    guid: 03eb69954ee232e40a02ef5d31adfd1c
+  m_configObjects: {}
