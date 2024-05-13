@@ -112,15 +112,15 @@ TextureImporter:
         y: 7916
         width: 3915
         height: 2787
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38d5f4fe433821342b9489b61cd08c88
-      internalID: 1365254976
+      spriteID: e5efc6206217bce42a4ac313cabaade7
+      internalID: -758972810
       vertices: []
       indices: 
       edges: []
@@ -133,15 +133,15 @@ TextureImporter:
         y: 7916
         width: 4068
         height: 2911
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c107759a2db31d4f9ed9d2812407836
-      internalID: -1678046910
+      spriteID: 7ddb072e2c4a1334d87d5bf7cdbdac18
+      internalID: 1841687908
       vertices: []
       indices: 
       edges: []
@@ -154,15 +154,15 @@ TextureImporter:
         y: 7916
         width: 4068
         height: 2917
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe1c226cae3dd8f4fa4d4846c0c297a6
-      internalID: 1614446558
+      spriteID: 5d2e47277511f72499787abb51e82066
+      internalID: 890734718
       vertices: []
       indices: 
       edges: []
@@ -175,15 +175,15 @@ TextureImporter:
         y: 4603
         width: 3945
         height: 2829
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e615efdaa784e9546b112c12e0429231
-      internalID: 508246988
+      spriteID: 21015db78c2655b44bc309fd7b9eb08a
+      internalID: 1587334913
       vertices: []
       indices: 
       edges: []
@@ -196,15 +196,15 @@ TextureImporter:
         y: 4627
         width: 4071
         height: 2916
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e84125abaaf7280419875fbce267973f
-      internalID: 1424489463
+      spriteID: 41b3ef01a5344ba45ba7b404d1dd3abf
+      internalID: -699269302
       vertices: []
       indices: 
       edges: []
@@ -217,15 +217,15 @@ TextureImporter:
         y: 4609
         width: 4003
         height: 2817
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e10d60fe3ca3bf140b9e0dccd914de70
-      internalID: 957862368
+      spriteID: bdff7812db528b9418afd92168ec8a9f
+      internalID: -248944903
       vertices: []
       indices: 
       edges: []
@@ -238,162 +238,15 @@ TextureImporter:
         y: 1439
         width: 4039
         height: 2857
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0bfb8b575a69dd549b21bd5440554fbb
-      internalID: 1896413772
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantallaguardado_0
-      rect:
-        serializedVersion: 2
-        x: 5938
-        y: 10993
-        width: 29
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f406d724cf086ab46ad60c899891a66d
-      internalID: 1625585562
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantallaguardado_1
-      rect:
-        serializedVersion: 2
-        x: 9795
-        y: 11005
-        width: 28
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4b69230780c45b4c8678ed58128cfde
-      internalID: -1364343718
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantallaguardado_2
-      rect:
-        serializedVersion: 2
-        x: 2153
-        y: 10863
-        width: 29
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a783347031e767c479cac19cd54df745
-      internalID: -578886072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantallaguardado_6
-      rect:
-        serializedVersion: 2
-        x: 5324
-        y: 7709
-        width: 29
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 29f5ddcf02c9dbc4ba2172cad8309875
-      internalID: 1331549383
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantallaguardado_7
-      rect:
-        serializedVersion: 2
-        x: 1568
-        y: 7591
-        width: 29
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ff2abf02b4d7ce4d8cca140d1b2e21c
-      internalID: -1145272564
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantallaguardado_8
-      rect:
-        serializedVersion: 2
-        x: 9158
-        y: 7591
-        width: 28
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e97a3377955b6ec48bfc9b93a0aaffc7
-      internalID: -424609194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pantallaguardado_12
-      rect:
-        serializedVersion: 2
-        x: 1042
-        y: 4462
-        width: 27
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae61fce47b2b8c2468aab10d24da2f73
-      internalID: 1553243774
+      spriteID: 2d6eb157ad7b9bf46a8965934d9bf15e
+      internalID: 1395637962
       vertices: []
       indices: 
       edges: []
@@ -409,20 +262,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pantallaguardado_0: 1625585562
-      pantallaguardado_1: -1364343718
-      pantallaguardado_10: 1424489463
-      pantallaguardado_11: 957862368
-      pantallaguardado_12: 1553243774
-      pantallaguardado_13: 1896413772
-      pantallaguardado_2: -578886072
-      pantallaguardado_3: 1365254976
-      pantallaguardado_4: -1678046910
-      pantallaguardado_5: 1614446558
-      pantallaguardado_6: 1331549383
-      pantallaguardado_7: -1145272564
-      pantallaguardado_8: -424609194
-      pantallaguardado_9: 508246988
+      pantallaguardado_0: -1471373412
+      pantallaguardado_1: 911704888
+      pantallaguardado_10: -699269302
+      pantallaguardado_11: -248944903
+      pantallaguardado_12: -2099981958
+      pantallaguardado_13: 1395637962
+      pantallaguardado_2: -117102148
+      pantallaguardado_3: -758972810
+      pantallaguardado_4: 1841687908
+      pantallaguardado_5: 890734718
+      pantallaguardado_6: -857613865
+      pantallaguardado_7: -474802122
+      pantallaguardado_8: -745979461
+      pantallaguardado_9: 1587334913
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

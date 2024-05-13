@@ -36,16 +36,16 @@ public class MenuPausa : MonoBehaviour
     public void pauseGame()
     {
         pauseMenu.SetActive(true);
-        isPaused = true;
         Time.timeScale = 0f;
+        isPaused = true;
 
     }
 
     public void resumeGame()
     {
         pauseMenu.SetActive(false);
-        isPaused = false;
         Time.timeScale = 1f;
+        isPaused = false;
     }
 
     public void saveGame() {
@@ -56,6 +56,7 @@ public class MenuPausa : MonoBehaviour
     public void mainMenu() {
         Time.timeScale = 1f;
         SceneManager.LoadSceneAsync(0);
+        isPaused = false;
     }
 
     public void quit() {
