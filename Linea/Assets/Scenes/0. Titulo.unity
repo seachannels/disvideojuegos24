@@ -314,7 +314,7 @@ Animator:
   m_GameObject: {fileID: 163730549}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 428e51b0847af98449d571bfdc30bcc5, type: 2}
+  m_Controller: {fileID: 9100000, guid: 81444cedbc455cf41b6a2a44f81823de, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -626,7 +626,7 @@ Animator:
   m_GameObject: {fileID: 253896384}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a593697181552fa48b0cd271df44757b, type: 2}
+  m_Controller: {fileID: 9100000, guid: 81444cedbc455cf41b6a2a44f81823de, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1818,7 +1818,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 58df0db4faecc5445a1868957174190c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6561af12fc5aaad478e9db88612c85f0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2031,8 +2031,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Press any button to start
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 82c88f4b9125b3345b8bce332d851a50, type: 2}
-  m_sharedMaterial: {fileID: -8580284564360421131, guid: 82c88f4b9125b3345b8bce332d851a50, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 697bf0dc764bd4c43b7fff472b45ec30, type: 2}
+  m_sharedMaterial: {fileID: -8580284564360421131, guid: 697bf0dc764bd4c43b7fff472b45ec30, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
