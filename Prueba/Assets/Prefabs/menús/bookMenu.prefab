@@ -108,8 +108,8 @@ MonoBehaviour:
   m_text: "Busca a la figurinista para poder probarte tu traje nuevo. Seguramente
     est\xE9 en su atelier..."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 82c88f4b9125b3345b8bce332d851a50, type: 2}
-  m_sharedMaterial: {fileID: -8580284564360421131, guid: 82c88f4b9125b3345b8bce332d851a50, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3d6f682647b1ab4428b1b56838fa6f54, type: 2}
+  m_sharedMaterial: {fileID: -8580284564360421131, guid: 3d6f682647b1ab4428b1b56838fa6f54, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -436,8 +436,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '* Habla con la Figurinista'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 82c88f4b9125b3345b8bce332d851a50, type: 2}
-  m_sharedMaterial: {fileID: -8580284564360421131, guid: 82c88f4b9125b3345b8bce332d851a50, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3d6f682647b1ab4428b1b56838fa6f54, type: 2}
+  m_sharedMaterial: {fileID: -8580284564360421131, guid: 3d6f682647b1ab4428b1b56838fa6f54, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -706,8 +706,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '* Busca las tijeras (?)'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 82c88f4b9125b3345b8bce332d851a50, type: 2}
-  m_sharedMaterial: {fileID: -8580284564360421131, guid: 82c88f4b9125b3345b8bce332d851a50, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3d6f682647b1ab4428b1b56838fa6f54, type: 2}
+  m_sharedMaterial: {fileID: -8580284564360421131, guid: 3d6f682647b1ab4428b1b56838fa6f54, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -873,8 +873,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "* A\xFAn no tienes ninguna tarea"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 82c88f4b9125b3345b8bce332d851a50, type: 2}
-  m_sharedMaterial: {fileID: -8580284564360421131, guid: 82c88f4b9125b3345b8bce332d851a50, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3d6f682647b1ab4428b1b56838fa6f54, type: 2}
+  m_sharedMaterial: {fileID: -8580284564360421131, guid: 3d6f682647b1ab4428b1b56838fa6f54, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1009,8 +1009,8 @@ MonoBehaviour:
   m_text: "\xA1La figurinista ha perdido sus tijeras! Echa un vistazo alrededor de
     su taller. No olvides volver luego a entreg\xE1rselas."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 82c88f4b9125b3345b8bce332d851a50, type: 2}
-  m_sharedMaterial: {fileID: -8580284564360421131, guid: 82c88f4b9125b3345b8bce332d851a50, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 3d6f682647b1ab4428b1b56838fa6f54, type: 2}
+  m_sharedMaterial: {fileID: -8580284564360421131, guid: 3d6f682647b1ab4428b1b56838fa6f54, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
