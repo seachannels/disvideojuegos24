@@ -7,6 +7,7 @@ public class MenuPausa : MonoBehaviour
 {
     public GameObject pauseMenu;
     public GameObject savingMessage;
+    public GameObject loadingMessage;
     public bool isPaused;
     // Start is called before the first frame update
 
@@ -14,19 +15,20 @@ public class MenuPausa : MonoBehaviour
     {
         pauseMenu.SetActive(false);
         savingMessage.SetActive(false);
+        loadingMessage.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))   
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (isPaused) 
+            if (isPaused)
             {
                 resumeGame();
             }
 
-            else 
+            else
             {
                 pauseGame();
             }
@@ -43,23 +45,36 @@ public class MenuPausa : MonoBehaviour
 
     public void resumeGame()
     {
+        loadingMessage.SetActive(false);
+        savingMessage.SetActive(false);
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
     }
 
-    public void saveGame() {
+    public void saveGame()
+    {
         savingMessage.SetActive(true);
-        Invoke ("resumeGame", 3);
+
+        Invoker.InvokeDelayed(resumeGame, 2);
     }
 
-    public void mainMenu() {
+    public void loadGame()
+    {
+        loadingMessage.SetActive(true);
+
+        Invoker.InvokeDelayed(resumeGame, 2);
+    }
+
+    public void mainMenu()
+    {
         Time.timeScale = 1f;
         SceneManager.LoadSceneAsync(0);
         isPaused = false;
     }
 
-    public void quit() {
+    public void quit()
+    {
         Application.Quit();
     }
 

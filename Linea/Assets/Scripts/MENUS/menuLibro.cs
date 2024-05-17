@@ -43,6 +43,31 @@ public class menuLibro : MonoBehaviour
             }
 
         }
+
+        if (seccionTareas)
+        {
+            switch (estadoTareas)
+            {
+                case listaTareas.tarea0:
+                    tarea0.SetActive(true);
+                    tarea1.SetActive(false);
+                    tarea2.SetActive(false);
+
+                    break;
+
+                case listaTareas.tarea1:
+                    tarea1.SetActive(true);
+                    tarea0.SetActive(false);
+                    tarea2.SetActive(false);
+                    break;
+
+                case listaTareas.tarea2:
+                    tarea2.SetActive(true); tarea0.SetActive(false);
+                    tarea1.SetActive(false);
+                    break;
+            }
+        }
+
     }
     public void openMenu()
     {
@@ -59,32 +84,13 @@ public class menuLibro : MonoBehaviour
         menuOpen = false;
     }
 
-/*
+
     public void tareas()
     {
         seccionTareas.SetActive(true);
 
-        switch (listaTareas)
-        {
-            case listaTareas.tarea0:
-                tarea0.SetActive(true);
-                break;
 
-            case listaTareas.tarea1:
-                tarea1.SetActive(true);
-                break;
 
-            case listaTareas.tarea2:
-                tarea2.SetActive(true);
-                break;
-
-        }
-    }*/
-
-    public void tarea1prueba()
-    {
-        tarea1.SetActive(true);
     }
-
 
 }

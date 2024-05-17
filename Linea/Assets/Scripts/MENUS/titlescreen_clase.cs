@@ -63,4 +63,9 @@ public class titlescreen_clase : MonoBehaviour
                 break;
         }
     }
+
+    public void startGame()
+    {
+        SceneManager.LoadSceneAsync(1); //carga el juego
+    }
 }
