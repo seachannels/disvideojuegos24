@@ -7,23 +7,24 @@ public class menuLibro : MonoBehaviour
     // Start is called before the first frame update
     public GameObject bookMenu;
     public bool menuOpen;
-    enum listaTareas
+    public enum listaTareas
     {
         tarea0,
         tarea1,
         tarea2,
+        tarea3,
     }
-    listaTareas estadoTareas;
+    public static listaTareas estadoTareas;
     public GameObject tarea0;
     public GameObject tarea1;
     public GameObject tarea2;
-
+    public GameObject tarea3;
     public GameObject seccionTareas;
 
     void Start()
     {
         bookMenu.SetActive(false);
-        estadoTareas = listaTareas.tarea0;
+        estadoTareas = 0;
     }
 
     // Update is called once per frame
@@ -43,31 +44,38 @@ public class menuLibro : MonoBehaviour
             }
 
         }
-
-        if (seccionTareas)
+        switch (estadoTareas)
         {
-            switch (estadoTareas)
-            {
-                case listaTareas.tarea0:
-                    tarea0.SetActive(true);
-                    tarea1.SetActive(false);
-                    tarea2.SetActive(false);
+            case listaTareas.tarea0:
+                tarea0.SetActive(true);
+                tarea1.SetActive(false);
+                tarea2.SetActive(false);
+                tarea3.SetActive(false);
 
-                    break;
+                break;
 
-                case listaTareas.tarea1:
-                    tarea1.SetActive(true);
-                    tarea0.SetActive(false);
-                    tarea2.SetActive(false);
-                    break;
+            case listaTareas.tarea1:
+                tarea0.SetActive(false);
+                tarea1.SetActive(true);
+                tarea2.SetActive(false);
+                tarea3.SetActive(false);
 
-                case listaTareas.tarea2:
-                    tarea2.SetActive(true); tarea0.SetActive(false);
-                    tarea1.SetActive(false);
-                    break;
-            }
+                break;
+
+            case listaTareas.tarea2:
+                tarea0.SetActive(false);
+                tarea1.SetActive(false);
+                tarea2.SetActive(true); 
+                tarea3.SetActive(false);
+                break;
+            case listaTareas.tarea3:
+                tarea0.SetActive(false);
+                tarea1.SetActive(false);
+                tarea2.SetActive(false);
+                tarea3.SetActive(true);
+
+                break;
         }
-
     }
     public void openMenu()
     {
@@ -88,9 +96,6 @@ public class menuLibro : MonoBehaviour
     public void tareas()
     {
         seccionTareas.SetActive(true);
-
-
-
     }
 
 }

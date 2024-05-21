@@ -11,11 +11,13 @@ public class titlescreen_clase : MonoBehaviour
     {
         title, //en modo press any button to start
         options, //en la pantalla de cargar partida
+        credits,
     }
     SplashStates State;
 
     public GameObject options_screen;
     public GameObject title_screen;
+    public GameObject credits;
     void Start()
     {
         State = SplashStates.title;
@@ -27,45 +29,65 @@ public class titlescreen_clase : MonoBehaviour
         switch (State)
         {
             case SplashStates.title: //en el título
-
                 //quitar botones
                 options_screen.SetActive(false);
-
+                credits.SetActive(false);
                 //poner título
                 title_screen.SetActive(true);
-
                 //Evaluación de condiciones de cambio de estado
                 if (Input.anyKeyDown)
                 {
                     State = SplashStates.options;
                 }
-
                 break;
-
 
             case SplashStates.options: //en la pantalla de opciones
 
                 //quitar título
                 title_screen.SetActive(false);
-
+                credits.SetActive(false);
                 //poner botones
                 options_screen.SetActive(true);
 
-                if (Input.GetKey(KeyCode.Escape))
+                if (Input.GetKeyDown(KeyCode.Escape))
                 {
                     Application.Quit(); //cierra el juego
                 }
 
-                if (Input.GetKey(KeyCode.Return)) //tiene que funcionar con enter pero esto inicializa como muy rápido
+                if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
+
                 {
-                    SceneManager.LoadSceneAsync(1); //carga el juego
+                    CameraFade.fadeScene = true;
+                    Invoker.InvokeDelayed(empezar, 1);
                 }
                 break;
+
+            case SplashStates.credits: //en la pantalla de opciones
+                options_screen.SetActive(false);
+                title_screen.SetActive(false);
+                credits.SetActive(true);
+                break;
+
         }
     }
 
     public void startGame()
     {
-        SceneManager.LoadSceneAsync(1); //carga el juego
+        CameraFade.fadeScene = true;
+        Invoker.InvokeDelayed(empezar, 1);
+    }
+    public void creditsButton()
+    {
+        State = SplashStates.credits;
+
+    }
+    public void backOptions()
+    {
+        State = SplashStates.options;
+    }
+
+    void empezar()
+    {
+        SceneManager.LoadSceneAsync(5); //carga el juego
     }
 }

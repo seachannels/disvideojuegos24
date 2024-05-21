@@ -26,7 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/4.TallerFigurinista.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Mapa.unity
     guid: 03eb69954ee232e40a02ef5d31adfd1c
+  - enabled: 1
+    path: Assets/Scenes/5. Prologo.unity
+    guid: 35a9ae1e03692e24ca0bc4c720df5554
   m_configObjects: {}
