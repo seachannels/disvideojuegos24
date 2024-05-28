@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6448301735192907760}
   - component: {fileID: 5650071634279140276}
   m_Layer: 0
-  m_Name: Player
+  m_Name: pijama
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,8 +31,8 @@ Transform:
   m_GameObject: {fileID: 1338037723897380889}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.0032417402, y: -2.7914658, z: 0}
-  m_LocalScale: {x: 0.15807505, y: 0.15807505, z: 0.15807505}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 568099450, guid: 7e7ab7a73f284144880af43afbd4b8bc, type: 3}
+  m_Sprite: {fileID: 1164208609, guid: 68907c955c753b747a34dbaf3907fe74, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -184,8 +184,8 @@ BoxCollider2D:
   m_Offset: {x: 0.012382746, y: 0.50360626}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.15}
-    oldSize: {x: 20.505007, y: 20.5}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 5.98, y: 9.56}
     newSize: {x: 16.4, y: 23.603092}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -204,7 +204,7 @@ Animator:
   m_GameObject: {fileID: 1338037723897380889}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 385a6978bdbde964f8244bc43b081385, type: 2}
+  m_Controller: {fileID: 9100000, guid: d355eb391667ce94ba90ca706705add1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

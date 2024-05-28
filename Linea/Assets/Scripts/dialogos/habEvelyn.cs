@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class dialogos1 : MonoBehaviour
+public class habEvelyn : MonoBehaviour
 {
     public enum ListaEscena
     {
@@ -31,6 +31,7 @@ public class dialogos1 : MonoBehaviour
     public GameObject dialogo3;
     public GameObject dialogo4;
     public GameObject dialogo5;
+    public GameObject figurinistaSprite;
     // Start is called before the first frame update
     void Start()
     {
@@ -49,11 +50,11 @@ public class dialogos1 : MonoBehaviour
                 break;
             case ListaEscena.estado2:
                 CameraFade.fadeScene = false;
-                estadoDialogos = listaDialogos.dialogo0;     
-                estadoEscena++;       
+                estadoDialogos = listaDialogos.dialogo0;
+                estadoEscena++;
                 break;
             case ListaEscena.fin:
-            break;
+                break;
         }
 
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
@@ -66,8 +67,9 @@ public class dialogos1 : MonoBehaviour
         {
             case listaDialogos.nada:
 
-            break;
+                break;
             case listaDialogos.dialogo0:
+                //Time.timeScale = 0f;
 
                 dialogo0.SetActive(true);
                 dialogo1.SetActive(false);
@@ -83,7 +85,7 @@ public class dialogos1 : MonoBehaviour
                 dialogo2.SetActive(false);
                 dialogo3.SetActive(false);
                 dialogo4.SetActive(false);
-                dialogo5.SetActive(false); 
+                dialogo5.SetActive(false);
                 break;
 
             case listaDialogos.dialogo2:
@@ -111,6 +113,7 @@ public class dialogos1 : MonoBehaviour
                 dialogo3.SetActive(false);
                 dialogo4.SetActive(true);
                 dialogo5.SetActive(false);
+                figurinistaSprite.SetActive(true);
                 break;
             case listaDialogos.dialogo5:
 
@@ -125,6 +128,7 @@ public class dialogos1 : MonoBehaviour
             case listaDialogos.dialogueEnd:
                 dialogosUI.SetActive(false);
                 menuLibro.estadoTareas++;
+                //Time.timeScale = 1f;
                 estadoDialogos++;
                 break;
             case listaDialogos.FIN:

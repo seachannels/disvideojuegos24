@@ -86,6 +86,9 @@ public class titlescreen_clase : MonoBehaviour
         State = SplashStates.options;
     }
 
+    public void cerrarJuego () {
+        Application.Quit();
+    }
     void empezar()
     {
         SceneManager.LoadSceneAsync(5); //carga el juego

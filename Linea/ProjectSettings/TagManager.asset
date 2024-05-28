@@ -6,6 +6,7 @@ TagManager:
   tags:
   - optionsbuttons
   - expresiones
+  - dress
   layers:
   - Default
   - TransparentFX
