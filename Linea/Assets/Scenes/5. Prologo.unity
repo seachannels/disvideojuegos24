@@ -288,7 +288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01c8e34a3f1cb554fb8cf71ad60cb8b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedScale: 0.5
+  speedScale: 0.3
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   Curve:
     serializedVersion: 2
@@ -1154,7 +1154,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 33e82255e624f1346b4e9de56e150931, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3d4d60cc713d8b848869a648906d3908, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

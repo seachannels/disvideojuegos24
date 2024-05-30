@@ -1059,7 +1059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01c8e34a3f1cb554fb8cf71ad60cb8b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speedScale: 0.5
+  speedScale: 0.3
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   Curve:
     serializedVersion: 2

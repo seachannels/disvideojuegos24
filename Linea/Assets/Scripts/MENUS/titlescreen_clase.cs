@@ -59,6 +59,7 @@ public class titlescreen_clase : MonoBehaviour
                 {
                     CameraFade.fadeScene = true;
                     Invoker.InvokeDelayed(empezar, 1);
+
                 }
                 break;
 

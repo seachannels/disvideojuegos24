@@ -37,6 +37,7 @@ public class habEvelyn : MonoBehaviour
     {
         estadoDialogos = 0;
         estadoEscena = 0;
+        figurinistaSprite.SetActive(true);
     }
 
     // Update is called once per frame
@@ -113,7 +114,7 @@ public class habEvelyn : MonoBehaviour
                 dialogo3.SetActive(false);
                 dialogo4.SetActive(true);
                 dialogo5.SetActive(false);
-                figurinistaSprite.SetActive(true);
+                figurinistaSprite.SetActive(false);
                 break;
             case listaDialogos.dialogo5:
 
