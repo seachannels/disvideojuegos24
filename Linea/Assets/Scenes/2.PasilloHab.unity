@@ -1058,6 +1058,11 @@ PolygonCollider2D:
       - {x: 7.2706823, y: -1.3768586}
       - {x: -6.79583, y: -1.366209}
       - {x: -8.053478, y: -2.1967125}
+--- !u!1 &1713917574 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5242269519593137553, guid: 62aaf43543bc04646bde566336b6b2e4, type: 3}
+  m_PrefabInstance: {fileID: 1559427744}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1743257639
 GameObject:
   m_ObjectHideFlags: 0
@@ -1288,6 +1293,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1039490195}
     m_Modifications:
+    - target: {fileID: 6964891288575412306, guid: 1e390e4e5536a064e95e4af143ef3a4b, type: 3}
+      propertyPath: _inputKey
+      value: 102
+      objectReference: {fileID: 0}
     - target: {fileID: 6964891288575412306, guid: 1e390e4e5536a064e95e4af143ef3a4b, type: 3}
       propertyPath: _conexiones
       value: 
