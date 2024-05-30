@@ -18,23 +18,22 @@ public class menuLibro : MonoBehaviour
 
     public GameObject tarea0;
     public GameObject tarea1;
-    public GameObject tarea2;
-    public GameObject tarea3;
-    private enum listaPaginas
+    public enum listaPaginas
     {
         pag1,
         pag2,
         pag3,
         pag4,
-        pag5,
+        pag5
     }
-    private listaPaginas paginaLibro;
+    public listaPaginas paginaLibro;
     public GameObject seccionTareas, seccionLog, seccionInventario, seccionPersonajes, seccionMapa;
 
     void Start()
     {
         bookMenu.SetActive(false);
         estadoTareas = 0;
+        paginaLibro = listaPaginas.pag1;
     }
 
     // Update is called once per frame
@@ -54,22 +53,48 @@ public class menuLibro : MonoBehaviour
             }
 
         }
+
         switch (paginaLibro)
         {
             case listaPaginas.pag1:
-                tareas();
+                seccionTareas.SetActive(true);
+                seccionLog.SetActive(false);
+                seccionInventario.SetActive(false);
+                seccionPersonajes.SetActive(false);
+                seccionMapa.SetActive(false);
+
                 break;
             case listaPaginas.pag2:
-                inventario();
+                seccionTareas.SetActive(false);
+                seccionLog.SetActive(false);
+                seccionInventario.SetActive(true);
+                seccionPersonajes.SetActive(false);
+                seccionMapa.SetActive(false);
+
                 break;
             case listaPaginas.pag3:
-                mapa();
+                seccionTareas.SetActive(false);
+                seccionLog.SetActive(false);
+                seccionInventario.SetActive(false);
+                seccionPersonajes.SetActive(false);
+                seccionMapa.SetActive(true);
+
                 break;
             case listaPaginas.pag4:
-                log();
+                seccionTareas.SetActive(false);
+                seccionLog.SetActive(true);
+                seccionInventario.SetActive(false);
+                seccionPersonajes.SetActive(false);
+                seccionMapa.SetActive(false);
+
                 break;
             case listaPaginas.pag5:
-                personajes();
+                seccionTareas.SetActive(false);
+                seccionLog.SetActive(false);
+                seccionInventario.SetActive(false);
+                seccionPersonajes.SetActive(true);
+                seccionMapa.SetActive(false);
+
                 break;
         }
         switch (estadoTareas)
@@ -77,30 +102,12 @@ public class menuLibro : MonoBehaviour
             case listaTareas.tarea0:
                 tarea0.SetActive(true);
                 tarea1.SetActive(false);
-                tarea2.SetActive(false);
-                tarea3.SetActive(false);
 
                 break;
 
             case listaTareas.tarea1:
                 tarea0.SetActive(false);
                 tarea1.SetActive(true);
-                tarea2.SetActive(false);
-                tarea3.SetActive(false);
-
-                break;
-
-            case listaTareas.tarea2:
-                tarea0.SetActive(false);
-                tarea1.SetActive(false);
-                tarea2.SetActive(true);
-                tarea3.SetActive(false);
-                break;
-            case listaTareas.tarea3:
-                tarea0.SetActive(false);
-                tarea1.SetActive(false);
-                tarea2.SetActive(false);
-                tarea3.SetActive(true);
 
                 break;
         }
@@ -120,59 +127,44 @@ public class menuLibro : MonoBehaviour
         menuOpen = false;
     }
 
-  /*  public void nextPage()
+    public void nextPage()
     {
-        if (paginaLibro is not listaPaginas.pag5)
+        if (paginaLibro != listaPaginas.pag5)
         {
             paginaLibro++;
         }
-        else {paginaLibro = listaPaginas.pag1; }
-    }*/
+        else { paginaLibro = listaPaginas.pag1; }
+    }
 
     public void tareas()
     {
-        seccionTareas.SetActive(true);
-        seccionLog.SetActive(false);
-        seccionInventario.SetActive(false);
-        seccionPersonajes.SetActive(false);
-        seccionMapa.SetActive(false);
+        paginaLibro = listaPaginas.pag1;
+
     }
 
-    public void log()
-    {
-        seccionTareas.SetActive(false);
-        seccionLog.SetActive(true);
-        seccionInventario.SetActive(false);
-        seccionPersonajes.SetActive(false);
-        seccionMapa.SetActive(false);
-    }
+
 
     public void inventario()
     {
-        seccionTareas.SetActive(false);
-        seccionLog.SetActive(false);
-        seccionInventario.SetActive(true);
-        seccionPersonajes.SetActive(false);
-        seccionMapa.SetActive(false);
+        paginaLibro = listaPaginas.pag2;
     }
-
-    public void personajes()
-    {
-        print("personajes");
-        seccionTareas.SetActive(false);
-        seccionLog.SetActive(false);
-        seccionInventario.SetActive(false);
-        seccionPersonajes.SetActive(true);
-        seccionMapa.SetActive(false);
-    }
-
     public void mapa()
     {
-        seccionTareas.SetActive(false);
-        seccionLog.SetActive(false);
-        seccionInventario.SetActive(false);
-        seccionPersonajes.SetActive(false);
-        seccionMapa.SetActive(true);
+        paginaLibro = listaPaginas.pag3;
+
     }
+    public void log()
+    {
+        paginaLibro = listaPaginas.pag4;
+
+
+    }
+    public void personajes()
+    {
+        paginaLibro = listaPaginas.pag5;
+
+    }
+
+
 
 }
