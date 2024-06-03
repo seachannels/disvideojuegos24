@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class final : MonoBehaviour
 {
     public enum listaDialogos
@@ -14,24 +15,27 @@ public class final : MonoBehaviour
         FIN,
     }
     public GameObject dialogosUI;
-    public listaDialogos estadoDialogos;
-    public GameObject dialogo0;
-    public GameObject dialogo1;
-    public GameObject dialogo2;
+    public static listaDialogos estadoDialogos;
+    public GameObject dialogo0, dialogo1, dialogo2;
     public GameObject playerPijama, playerVestido;
     public GameObject vestido;
+    public GameObject tarea1, tarea2;
+
     // Start is called before the first frame update
     void Start()
     {
         playerPijama.SetActive(true);
         playerVestido.SetActive(false);
+        tarea2.SetActive(false);
         estadoDialogos = 0;
-        //pijama=GetComponent<AnimatorController>();
     }
+
+
 
     // Update is called once per frame
     void Update()
     {
+
 
         if (estadoDialogos == listaDialogos.dialogo0)
         {
@@ -55,6 +59,9 @@ public class final : MonoBehaviour
             case listaDialogos.dialogo1:
                 playerVestido.SetActive(true);
                 playerPijama.SetActive(false);
+                tarea1.SetActive(false);
+                tarea2.SetActive(true);
+                vestido.SetActive(false);
                 dialogo1.SetActive(true);
                 dialogo0.SetActive(false);
                 dialogo2.SetActive(false);
@@ -73,5 +80,8 @@ public class final : MonoBehaviour
         }
     }
 
+public void Interact() {
+    estadoDialogos=listaDialogos.dialogo1;
+}
 }
 

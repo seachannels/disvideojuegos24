@@ -25,12 +25,8 @@ public class habEvelyn : MonoBehaviour
         FIN,
     }
     public listaDialogos estadoDialogos;
-    public GameObject dialogo0;
-    public GameObject dialogo1;
-    public GameObject dialogo2;
-    public GameObject dialogo3;
-    public GameObject dialogo4;
-    public GameObject dialogo5;
+    public GameObject dialogo0, dialogo1, dialogo2, dialogo3, dialogo4, dialogo5;
+    public GameObject tarea1,tarea2;
     public GameObject figurinistaSprite;
     // Start is called before the first frame update
     void Start()
@@ -38,6 +34,7 @@ public class habEvelyn : MonoBehaviour
         estadoDialogos = 0;
         estadoEscena = 0;
         figurinistaSprite.SetActive(true);
+        tarea2.SetActive(false);
     }
 
     // Update is called once per frame
@@ -129,6 +126,8 @@ public class habEvelyn : MonoBehaviour
             case listaDialogos.dialogueEnd:
                 dialogosUI.SetActive(false);
                 menuLibro.estadoTareas++;
+        tarea2.SetActive(true);
+        tarea1.SetActive(false);
                 //Time.timeScale = 1f;
                 estadoDialogos++;
                 break;
