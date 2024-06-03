@@ -1,20 +1,16 @@
 -> start
 
 === start ===
-NPC: ¡Hola! ¿Cómo te va la vida?
-* [Me va bien.]
-    -> bien
-* [Me va mal.]
-    -> mal
+Hola, Evelyn. ¿Ya has encontrado tu traje?
+* [Sí.]
+    -> si
+* [No.]
+    -> no
 
-=== bien ===
-NPC: ¡Qué bien! Me alegra escuchar eso. Siempre es bueno saber que las cosas van bien.
--> despedida
+=== si ===
+¡Genial!
+-> END
 
-=== mal ===
-NPC: Lo siento mucho. Espero que las cosas mejoren pronto. Si necesitas hablar, aquí estoy.
--> despedida
-
-=== despedida ===
-NPC: Bueno, tengo que irme ahora. ¡Cuídate!
+=== no ===
+Debe estar por aquí cerca.
 -> END
