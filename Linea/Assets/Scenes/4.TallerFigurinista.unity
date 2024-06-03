@@ -3069,7 +3069,7 @@ MonoBehaviour:
   m_ScrollWheelAction: {fileID: -3823475788213799501, guid: 3c6cbfd89e778a540b57efcff0e2ea2a, type: 3}
   m_TrackedDevicePositionAction: {fileID: -3816344270778755183, guid: 3c6cbfd89e778a540b57efcff0e2ea2a, type: 3}
   m_TrackedDeviceOrientationAction: {fileID: -3404023077009159980, guid: 3c6cbfd89e778a540b57efcff0e2ea2a, type: 3}
-  m_DeselectOnBackgroundClick: 1
+  m_DeselectOnBackgroundClick: 0
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
 --- !u!1 &1500138848
@@ -3096,7 +3096,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1500138848}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.93, y: 1.04, z: 0}
+  m_LocalPosition: {x: 1.64, y: 1.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3125,6 +3125,10 @@ PrefabInstance:
     - target: {fileID: 4838774870743875667, guid: f2548558803e9b54fb040354f81823e7, type: 3}
       propertyPath: m_SortingLayerID
       value: 1151780359
+      objectReference: {fileID: 0}
+    - target: {fileID: 5365449643557265657, guid: f2548558803e9b54fb040354f81823e7, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6104603464726062285, guid: f2548558803e9b54fb040354f81823e7, type: 3}
       propertyPath: m_RootOrder
@@ -3186,7 +3190,8 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5365449643557265657, guid: f2548558803e9b54fb040354f81823e7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f2548558803e9b54fb040354f81823e7, type: 3}
 --- !u!4 &1506386072 stripped
 Transform:

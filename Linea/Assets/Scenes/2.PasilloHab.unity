@@ -123,6 +123,26 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &89058104 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5096378174471840809, guid: 62aaf43543bc04646bde566336b6b2e4, type: 3}
+  m_PrefabInstance: {fileID: 1559427744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &89058105 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4118425231117587666, guid: 62aaf43543bc04646bde566336b6b2e4, type: 3}
+  m_PrefabInstance: {fileID: 1559427744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &89058106 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4887927565480695316, guid: 62aaf43543bc04646bde566336b6b2e4, type: 3}
+  m_PrefabInstance: {fileID: 1559427744}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &89058107 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4808616677499244619, guid: 62aaf43543bc04646bde566336b6b2e4, type: 3}
+  m_PrefabInstance: {fileID: 1559427744}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &164486827
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -360,9 +380,25 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1559427749}
     - target: {fileID: 4975772830534107543, guid: 19f16d6aa4d98164ab2852c233f15ad1, type: 3}
-      propertyPath: seccionTareas
+      propertyPath: seccionLog
+      value: 
+      objectReference: {fileID: 89058106}
+    - target: {fileID: 4975772830534107543, guid: 19f16d6aa4d98164ab2852c233f15ad1, type: 3}
+      propertyPath: seccionMapa
       value: 
       objectReference: {fileID: 1559427745}
+    - target: {fileID: 4975772830534107543, guid: 19f16d6aa4d98164ab2852c233f15ad1, type: 3}
+      propertyPath: seccionTareas
+      value: 
+      objectReference: {fileID: 89058107}
+    - target: {fileID: 4975772830534107543, guid: 19f16d6aa4d98164ab2852c233f15ad1, type: 3}
+      propertyPath: seccionInventario
+      value: 
+      objectReference: {fileID: 89058105}
+    - target: {fileID: 4975772830534107543, guid: 19f16d6aa4d98164ab2852c233f15ad1, type: 3}
+      propertyPath: seccionPersonajes
+      value: 
+      objectReference: {fileID: 89058104}
     - target: {fileID: 8995833176306634675, guid: 19f16d6aa4d98164ab2852c233f15ad1, type: 3}
       propertyPath: pauseMenu
       value: 
@@ -920,7 +956,7 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 62aaf43543bc04646bde566336b6b2e4, type: 3}
 --- !u!1 &1559427745 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 4808616677499244619, guid: 62aaf43543bc04646bde566336b6b2e4, type: 3}
+  m_CorrespondingSourceObject: {fileID: 5376998216688506877, guid: 62aaf43543bc04646bde566336b6b2e4, type: 3}
   m_PrefabInstance: {fileID: 1559427744}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1559427746 stripped
