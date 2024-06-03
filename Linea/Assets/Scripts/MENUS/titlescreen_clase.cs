@@ -22,6 +22,7 @@ public class titlescreen_clase : MonoBehaviour
     void Start()
     {
         State = SplashStates.title;
+        loadingMessage.SetActive(false);
     }
 
     // Update is called once per frame
@@ -87,7 +88,6 @@ public class titlescreen_clase : MonoBehaviour
     public void loadGame()
     {
         loadingMessage.SetActive(true);
-
         Invoker.InvokeDelayed(startGame, 2);
     }
     public void backOptions()

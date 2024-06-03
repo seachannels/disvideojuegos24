@@ -11,7 +11,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 4077878529505731059}
-    m_Position: {x: 200, y: 0, z: 0}
+    m_Position: {x: 230, y: 120, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8519227088535828053}
     m_Position: {x: 235, y: 65, z: 0}
@@ -31,7 +31,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Image
+  m_Name: guardando
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:

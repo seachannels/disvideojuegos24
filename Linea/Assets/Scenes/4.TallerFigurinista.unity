@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1338037723897380889, guid: 234cdfef66d621d49a95860d21502cc3, type: 3}
       propertyPath: m_TagString
-      value: dress
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4838774870743875667, guid: 234cdfef66d621d49a95860d21502cc3, type: 3}
       propertyPath: m_SortingLayer
@@ -2512,7 +2512,7 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_TargetDisplay: 0
 --- !u!1 &1008935964 stripped
 GameObject:
@@ -2929,6 +2929,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogosUI: {fileID: 966471791}
+  estadoDialogos: 0
   dialogo0: {fileID: 1073482482}
   dialogo1: {fileID: 1038696415}
   dialogo2: {fileID: 1486634063}
