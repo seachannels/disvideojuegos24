@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pijamaPlayer
       objectReference: {fileID: 0}
+    - target: {fileID: 1338037723897380889, guid: 234cdfef66d621d49a95860d21502cc3, type: 3}
+      propertyPath: m_TagString
+      value: dress
+      objectReference: {fileID: 0}
     - target: {fileID: 4838774870743875667, guid: 234cdfef66d621d49a95860d21502cc3, type: 3}
       propertyPath: m_SortingLayer
       value: -1
@@ -2605,6 +2609,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1083558501}
   - component: {fileID: 1083558502}
+  - component: {fileID: 1083558504}
+  - component: {fileID: 1083558503}
   m_Layer: 0
   m_Name: auraobjetos
   m_TagString: Untagged
@@ -2679,6 +2685,61 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1083558503
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083558500}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.80296755, y: -6.2791147}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 20.48, y: 20.48}
+    newSize: {x: 20.48, y: 20.48}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 22.196602, y: 17.064035}
+  m_EdgeRadius: 0
+--- !u!114 &1083558504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083558500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1f8d7f02e2e5c4482c5bdc706d22e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isInRange: 0
+  interactKey: 102
+  interactAction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1369970906}
+        m_TargetAssemblyTypeName: final, Assembly-CSharp
+        m_MethodName: Interact
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1206289126 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5376998216688506877, guid: 62aaf43543bc04646bde566336b6b2e4, type: 3}
@@ -3210,7 +3271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1486634064}
   m_Layer: 5
-  m_Name: figurinista4
+  m_Name: mensajefin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3362,6 +3423,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1338037723897380889, guid: f2548558803e9b54fb040354f81823e7, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4838774870743875667, guid: f2548558803e9b54fb040354f81823e7, type: 3}
       propertyPath: m_SortingLayer
       value: -1
@@ -3392,11 +3457,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6104603464726062285, guid: f2548558803e9b54fb040354f81823e7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -276.17
+      value: -274.45
       objectReference: {fileID: 0}
     - target: {fileID: 6104603464726062285, guid: f2548558803e9b54fb040354f81823e7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -96.01
+      value: -94.02
       objectReference: {fileID: 0}
     - target: {fileID: 6104603464726062285, guid: f2548558803e9b54fb040354f81823e7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4316,7 +4381,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3869696386625007790, guid: 19f16d6aa4d98164ab2852c233f15ad1, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3869696386625007790, guid: 19f16d6aa4d98164ab2852c233f15ad1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4561,10 +4626,9 @@ GameObject:
   - component: {fileID: 1931645976}
   - component: {fileID: 1931645977}
   - component: {fileID: 1931645979}
-  - component: {fileID: 1931645978}
   m_Layer: 0
   m_Name: vestido
-  m_TagString: dress
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4636,32 +4700,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &1931645978
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1931645975}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.40611362, y: -1.2190762}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 4.11}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.1477685, y: 6.9439535}
-  m_EdgeRadius: 0
 --- !u!50 &1931645979
 Rigidbody2D:
   serializedVersion: 4
@@ -5420,7 +5458,7 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_TargetDisplay: 0
 --- !u!224 &4679109224417916376
 RectTransform:
@@ -5590,7 +5628,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6964891288575412316, guid: 1e390e4e5536a064e95e4af143ef3a4b, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6964891288575412316, guid: 1e390e4e5536a064e95e4af143ef3a4b, type: 3}
       propertyPath: m_LocalPosition.x

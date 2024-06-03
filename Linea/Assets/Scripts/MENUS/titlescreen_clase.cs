@@ -18,6 +18,7 @@ public class titlescreen_clase : MonoBehaviour
     public GameObject options_screen;
     public GameObject title_screen;
     public GameObject credits;
+    public GameObject loadingMessage;
     void Start()
     {
         State = SplashStates.title;
@@ -82,12 +83,20 @@ public class titlescreen_clase : MonoBehaviour
         State = SplashStates.credits;
 
     }
+
+    public void loadGame()
+    {
+        loadingMessage.SetActive(true);
+
+        Invoker.InvokeDelayed(startGame, 2);
+    }
     public void backOptions()
     {
         State = SplashStates.options;
     }
 
-    public void cerrarJuego () {
+    public void cerrarJuego()
+    {
         Application.Quit();
     }
     void empezar()

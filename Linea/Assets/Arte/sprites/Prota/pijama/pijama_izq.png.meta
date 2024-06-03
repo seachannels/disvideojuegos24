@@ -108,10 +108,10 @@ TextureImporter:
       name: pijama_izq_0
       rect:
         serializedVersion: 2
-        x: 215
+        x: 262
         y: 492
-        width: 413
-        height: 1002
+        width: 372
+        height: 902
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,10 +129,10 @@ TextureImporter:
       name: pijama_izq_1
       rect:
         serializedVersion: 2
-        x: 675
-        y: 503
-        width: 419
-        height: 1010
+        x: 711
+        y: 502
+        width: 378
+        height: 909
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,10 +150,10 @@ TextureImporter:
       name: pijama_izq_2
       rect:
         serializedVersion: 2
-        x: 1112
-        y: 493
-        width: 423
-        height: 1024
+        x: 1154
+        y: 497
+        width: 381
+        height: 923
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,10 +171,10 @@ TextureImporter:
       name: pijama_izq_3
       rect:
         serializedVersion: 2
-        x: 1580
+        x: 1588
         y: 492
-        width: 438
-        height: 1027
+        width: 394
+        height: 925
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

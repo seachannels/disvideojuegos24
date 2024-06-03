@@ -15,13 +15,13 @@ public class final : MonoBehaviour
         FIN,
     }
     public GameObject dialogosUI;
-    public static listaDialogos estadoDialogos;
+    public listaDialogos estadoDialogos;
     public GameObject dialogo0, dialogo1, dialogo2;
     public GameObject playerPijama, playerVestido;
     public GameObject vestido;
     public GameObject tarea1, tarea2;
-
     // Start is called before the first frame update
+    Animator animator;
     void Start()
     {
         playerPijama.SetActive(true);
@@ -37,7 +37,7 @@ public class final : MonoBehaviour
     {
 
 
-        if (estadoDialogos == listaDialogos.dialogo0)
+        if (estadoDialogos != listaDialogos.nada)
         {
             if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
             {
@@ -80,8 +80,9 @@ public class final : MonoBehaviour
         }
     }
 
-public void Interact() {
-    estadoDialogos=listaDialogos.dialogo1;
-}
+    public void Interact()
+    {
+        estadoDialogos = listaDialogos.dialogo0;
+    }
 }
 
